@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Store",
+      "request": "launch",
+      "mainClass": "edu.bhscs.Store",
+      "projectName": "ap-java-starter"
+    },
+    {
+      "type": "java",
+      "name": "Cake",
+      "request": "launch",
+      "mainClass": "edu.bhscs.Cake",
+      "projectName": "ap-java-starter"
+    },
+    {
+      "type": "java",
+      "name": "donut",
+      "request": "launch",
+      "mainClass": "edu.bhscs.donut",
+      "projectName": "ap-java-starter"
+    },
+    {
+      "type": "java",
+      "name": "Example",
+      "request": "launch",
+      "mainClass": "edu.bhscs.Example",
+      "projectName": "ap-java-starter"
+    },
+    {
+      "type": "java",
+      "name": "main",
+      "request": "launch",
+      "mainClass": "edu.bhscs.main",
+      "projectName": "ap-java-starter"
+    },
+    {
+      "type": "java",
       "name": "Run Main (console)",
       "request": "launch",
       "mainClass": "edu.bhscs.Main",
@@ -23,7 +58,10 @@
       "mainClass": "edu.bhscs.Main",
       "console": "integratedTerminal",
       "preLaunchTask": "xpra-up",
-      "env": { "DISPLAY": ":99", "LIBGL_ALWAYS_SOFTWARE": "1" }
+      "env": {
+        "DISPLAY": ":99",
+        "LIBGL_ALWAYS_SOFTWARE": "1"
+      }
     }
   ]
 }
